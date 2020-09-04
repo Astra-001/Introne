@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bodyCalculator{
+  background-color: #fff;
+  height:auto;
+  border-radius:0.2rem;
+    font-family: sans-serif;
+    height:100vh;
+}
+
+.heading{
+font-size: 1.4rem;
+  display: flex;
+  height:2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  border-bottom: 1px solid #ffd;
+}
+#result , #workinPlace{
+  height:3rem;
+  display: flex;
+  justify-content: flex-end;
+  padding:1rem 1rem 0 0;
+  background-color: #ffff;
+  color:#000;
+}
+.allCancel{
+  display: flex;
+  justify-content: center;
+  margin: 1.3rem;
+  padding:0.5rem;
+  cursor: pointer;
+}
+.allCancel:hover{
+  background: #000;
+  color:#fff;
+  border-radius: 4px;
+}
+@media screen and (min-width:425px) {
+}
